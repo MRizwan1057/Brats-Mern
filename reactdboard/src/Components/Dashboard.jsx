@@ -18,11 +18,8 @@ const Dashboard = () => {
     <div className="col main pt-5 mt-3">
       <div className="row mb-3">
         <div className="col-xl-6 col-sm-6 py-2">
-          <div className="card bg-success text-white h-100">
-            <div
-              className="card-body bg-success"
-              style={{ backgroundColor: "#57b960" }}
-            >
+          <div className="card bg-light text-white h-100">
+            <div className="card-body" style={{ backgroundColor: "purple" }}>
               <div className="rotate"></div>
               <h6 className="text-uppercase">Asset Delisting Update</h6>
               <button className="btn btn-secondaery bg-warning">
