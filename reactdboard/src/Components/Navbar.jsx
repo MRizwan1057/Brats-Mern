@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar fixed-top navbar-expand-md navbar-dark bg-dark mb-3">
+    <nav className="navbar fixed-top navbar-expand-md navbar-light bg-dark mb-3">
       <div className="flex-row d-flex">
         <button
           type="button"
@@ -35,11 +35,6 @@ export const Navbar = () => {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <a className="nav-link waves-effect waves-light text-white">
-              <i className="fab fa-google"></i>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link waves-effect waves-light text-white">
               <i className="fas fa-bell"></i>
             </a>
           </li>
@@ -61,9 +56,7 @@ export const Navbar = () => {
               href=""
               data-target="#myModal"
               data-toggle="modal"
-            >
-              About
-            </a>
+            ></a>
           </li>
         </ul>
       </div>

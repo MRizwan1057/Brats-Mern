@@ -1,6 +1,7 @@
-import { Dashboard } from "@mui/icons-material";
 import React from "react";
-import Chart from "./Components/Chart";
+// import Card from "./Components/Card";
+// import Chart from "./Components/Chart";
+import Dashboard from "./Components/Dashboard";
 import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 
@@ -8,13 +9,13 @@ function App() {
   return (
     <>
       <div>
-        Salaam
         <Navbar />
         <div className="container-fluid" id="main">
           <div className="row row-offcanvas row-offcanvas-left">
             <Sidebar />
             <Dashboard />
             {/* <Chart /> */}
+            {/* <Card /> */}
           </div>
         </div>
       </div>
